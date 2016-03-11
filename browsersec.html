@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome! Browser Security Tab</title>
+<style>
+#facebook {
+	margin-left: 200px;
+	text-decoration: none;
+}
+</style>
+<style>
+#others {
+	margin-left: 0px;
+	text-decoration:none;
+}
+</style>
+<script>
+var userName = prompt("Please type your username!");
+var userPass = prompt("Please type your password!");
+switch (userName) {
+	case "YourName":  // YourName - change it to username you want. So in case that dialog text will be "YourName", it will alert you that text is correct.
+		alert("Username is correct!");
+}
+if (userName != "YourName") {  // YourName - change it to username you want. So if text in dialog isn't equal to your name, window will close.
+	alert("Username is incorrect!");
+	window.open('', '_self', ''); window.close();
+}
+switch (userPass) {
+	case "YourPassword":    // YourPassword - change it to password you want. So it's basically same as line 21.
+		alert("Password is correct!");
+}
+if (userPass != "YourPassword") {  // YourPassword - change it to password you want. Same function as line 24
+	alert("Password is incorrect!");
+	window.open('', '_self', ''); window.close();
+}
+</script>
+</head>
+<body>
+<body background = "https://wallpaperscraft.com/image/blur_background_pink_orange_light_73376_2560x1024.jpg">
+<br><br><br><br><br><br>
+<center><font face = "moon light" size = "8"><font color = "white">Welcome User!
+<br><br><font size = "4">You are secured with Google Security.</font></center>
+<br>
+<a href = "https://www.facebook.com" target = "_self" style = "text-decoration:none"><img src = "http://thehydrocafe.com/wp-content/uploads/2015/05/official-facebook-logo-slide.jpg" height = "130px" width = "250px" id = "facebook">
+<a href = "https://www.google.com" target = "_self" style = "text-decoration:none"><img src = "https://2.bp.blogspot.com/-Gh9Drj62EFw/VeXMk3xcsOI/AAAAAAAAAxw/knYsAcpaABo/s1600/OGB-INSIDER-BLOGS-GoogleLogox2-Animated.gif" height = "130px" width = "250px" id = "others">
+<a href = "https://www.instagram.com" target = "_self" style = "text-decoration:none"><img src = "https://s-media-cache-ak0.pinimg.com/originals/eb/52/72/eb52728a5f8976a70c49cb899403dfa5.gif" height = "130px" width = "250px" id = "others">
+<a href = "https://www.youtube.com/feed/subscriptions" target = "_self" style = "text-decoration:none"><img src = "http://www.droid-life.com/wp-content/uploads/2015/01/youtube-logo.jpg" height = "130px" width = "250px" id = "others">
+<br><br><center><font face = "moon light" size = "2"><font color = "white">(C) FreeDay 2015-2016.</font></center>
+</body>
+</html>
